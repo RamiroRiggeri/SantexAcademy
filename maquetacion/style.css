@@ -99,8 +99,7 @@ div#impacto {
 #capacitaciones,
 #equipo {
   width: 100%;
-  padding: 0 17.5%;
-  margin: 80px auto 40px auto;
+  padding: 30px 17.5%;
 }
 
 #equipo {
@@ -111,6 +110,7 @@ div#impacto {
   font-size: 1.75em;
   font-weight: 500;
   padding: 20px 0;
+  margin: 0;
 }
 
 .programas-section {
@@ -195,6 +195,7 @@ div#impacto {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 15px;
   grid-template-rows: 1fr 1fr;
+  padding: 15px 0 30px 0;
 }
 
 .card-img {
@@ -287,4 +288,100 @@ div#impacto {
   font-size: 16px;
   margin: 0;
   padding: 0;
+}
+
+#alianzas {
+  width: 100%;
+  padding: 40px 17.5%;
+}
+
+#logos {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.logo {
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 0px black solid;
+  background-size: cover;
+  height: 80px;
+  width: 10vw;
+  min-width: 130px;
+  filter: grayscale(100%);
+}
+
+.logo-1 {
+  background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/10/alianza-grupo-inteligencia-educativa-400x151.png");
+}
+
+.logo-2 {
+  background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/11/alianza-fundacion-scrum-400x151.png");
+}
+.logo-3 {
+  background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/10/alianza-santex-400x151.png");
+}
+.logo-4 {
+  background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/10/alianza-jesus-maria-400x151.png");
+}
+.logo-5 {
+  background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/11/alianza-banco-galicia-400x151.png");
+}
+
+.logo:hover {
+  filter: none;
+}
+
+#footer {
+  background-color: rgb(32, 27, 36);
+  height: 20vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 5vh 16%;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+#techwp-footer-logo {
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 0px black solid;
+  background-size: cover;
+  height: 51px;
+  width: 177px;
+  min-width: 130px;
+  background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/10/technology-with-purpose-white.svg");
+}
+
+ul {
+  padding: 0 auto;
+  text-align: center;
+}
+#footer-text {
+  color: white;
+  font-size: 0.7em;
+  font-weight: 300;
+}
+
+#footer ul li {
+  list-style-type: none;
+  margin: 5px auto;
+  text-decoration: inherit;
+  font-size: 0.8em;
+  text-align: left;
+}
+
+#footer ul li a {
+  color: white;
+  text-decoration: inherit;
+}
+#footer ul li a:visited {
+  color: white;
+  text-decoration: inherit;
+}
+span {
+  margin-right: 5px;
 }
